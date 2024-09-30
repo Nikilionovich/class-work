@@ -50,7 +50,75 @@
     text-align: center;
 }
 .contain_header{
-display: flex;
-align-items: center;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 970px;
+   
+}
+.Nav{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 20px 15px;
+}
+
+.nav-list a:hover{
+    transition: all 0.3s ease 0s;
+    color:  #00A4E5 ;
+}
+.nav-list a{
+    color: #48555B;
+    text-decoration: none;
+}
+.nav-list {
+    font-family:Sans;
+    list-style-type:none;
+    display: flex;
+    gap: 50px;  
+    
+
+}
+.black-logo{
+    width: 100px;
+    height: 25px;
+}
+.h2-our{
+    font-family:Sans;
+    margin: 60px;
+    text-align: center;
+    font-size: 18px;    
+    font-weight: 600;
+    letter-spacing: 2.306px;
+    margin-bottom: 90px;
+}
+.text-our-right
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    letter-spacing: 0.188px;
+
+}
+.div-our{
+     display: flex;
+}
+
+.img-inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    max-width: 100px;
+    gap: 16px;
+}
+.setting-str
+{
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 970px; 
+}
+.Plan{
+    
 }
