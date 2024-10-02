@@ -1,11 +1,3 @@
-@font-face {
-    font-family:BebasNeue;
-    src: url(shrift/BebasNeue\ Regular.otf),
-}
-@font-face {
-    font-family:Sans;
-    src: url(shrift/OpenSans-SemiBold.ttf),
-}
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +16,7 @@
 }
 .lOEl{
     color: white;
-    font-family: Sans;
+    font-family: "Open Sans"; 
     font-size: 11px;
     letter-spacing: 3.7px;
     margin-bottom: 80px;
@@ -69,12 +61,16 @@
 .nav-list a{
     color: #48555B;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 .nav-list {
-    font-family:Sans;
+    font-family: "Open Sans"; 
     list-style-type:none;
     display: flex;
     gap: 50px;  
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.091px;
     
 
 }
@@ -83,35 +79,49 @@
     height: 25px;
 }
 .h2-our{
-    font-family:Sans;
-    margin: 60px;
+    font-family: "Open Sans"; 
     text-align: center;
     font-size: 18px;    
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 2.306px;
-    margin-bottom: 90px;
+    color: #48555b;
 }
+
 .text-our-right
 {
+    font-family: "Open Sans"; 
+    font-weight: 400;
+    color: #48555b;
+    max-width :350px;
     display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin-bottom: 30px;
-    font-size: 20px;
+    flex-direction: column; 
+    margin-bottom: 45px;
     letter-spacing: 0.188px;
-
+}
+.text-our{
+    max-width: 400px;
+    font-size: 20px;
+       margin-bottom: 40px; 
+}
+.p-text-our{
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 23px;
+    letter-spacing: 0.188px;
 }
 .div-our{
      display: flex;
+     margin-left: 23px;
+    
 }
 
 .img-inf{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 24px;
-    max-width: 100px;
-    gap: 16px;
+     gap: 20px;
+     margin-left: 30px;
+ margin-top: 16px;  
 }
 .setting-str
 {
@@ -120,5 +130,103 @@
     max-width: 970px; 
 }
 .Plan{
+    background-image: url("img/design.png");
+    max-height:215px ; 
+    min-width: 150px;
+    line-height: 29px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+ padding: 10px;
+ padding-top: 0px;
+}
+.build{
+    background-image: url("img/roof.png");
+    max-height:215px ; 
+    min-width: 150px;
+    line-height: 29px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+ padding: 10px;
+ padding-top: 0px;
+}
+.manage{
+    background-image: url("img/notebook.png");
+    max-height:215px ; 
+    min-width: 150px;
+    line-height: 29px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+ padding: 10px;
+ padding-top: 0px;
+}
+.img-inf h3{
+    font-family:"Open Sans";
+    font-weight: 700;   
+    color: white;
+    max-width: 100px;
+    font-size: 24px;
+
+}
+.Konstruct-text{
+    color: #00A4E5;
+}
+.div-h2-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+.hr{
+  width: 50px;
+    height: 2px;
+    background-color: #00A4E5 ;
+    border: none;
+    margin-bottom: 90px;
+    margin: 7px;
+}
+.div-capabilities{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    padding-left: 20px;
+}
+.h2-capabilities{
+    font-family: "Open Sans";
+    letter-spacing: 2.306px;
+    margin-right: 155px;
+    font-size: 18px;
+font-weight: 700;
+color: #48555B;
+
+}
+.p-capabilities{
+    font-family: "Open Sans";
+    font-size: 13px;
+font-weight:400;
+max-width: 405px;
+    margin-right: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.188px;
+    color: #48555B;
+}
+.button-all-services{
     
+    font-family: "Open Sans";
+    background-color: #00A4E5;
+    color: white;
+    font-size: 13px;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    max-width: 150px;
+    padding: 15px;
 }
