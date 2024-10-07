@@ -28,17 +28,18 @@
 }
 .h1_first{
     color: white;
-    font-family: BebasNeue;
-    font-weight: 100;
+    font-family: "Bebas Neue";
+    font-weight: lighter;
     letter-spacing: 6px;
     font-size :60px;
     ;
     
 }
 .logo-text{
+    font-family: "Open Sans";
     color: white;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 600;
     text-align: center;
 }
 .contain_header{
@@ -229,4 +230,113 @@ max-width: 405px;
     letter-spacing: 0.5px;
     max-width: 150px;
     padding: 15px;
+}
+
+.ul-constr ul{
+    list-style-type:none;
+    display: flex;
+    gap: 50px;
+    color: #48555b;
+    border: brown;
+    justify-content: center;
+   
+}
+.ul-constr ul h3{
+     font-family: "Open Sans";
+     font-weight: bold;
+     font-size: 16px;
+     max-width: 200px;
+}
+.ul-constr ul p{
+    font-family: "Open Sans";
+font-size: 13px;
+max-width:  250px;
+}
+.market{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 250px;
+    border: 1px solid #E6E6E6;
+    padding: 20px;
+}
+.h3-market{
+    padding-bottom: 18px;
+}
+.bank{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width:  250px;
+    border: 1px solid #E6E6E6;
+    padding: 20px;
+}
+.Project-constr{
+display: flex;
+flex-direction: column;
+gap: 20px;
+max-width:  250px;
+border: 1px solid #E6E6E6;  
+padding: 20px;
+}
+.under-main1{
+    
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/bottom-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    min-height: 65vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h2-under-main1{
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: bold;
+    letter-spacing: 0.15px;
+    font-size: 30px;
+     max-width: 350px ;
+     margin-bottom: 30px;
+}
+.get_touch{
+    font-family: "Open Sans";
+    background-color: #00A4E5;
+    color: white;
+    font-size: 13px;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    max-width: 150px;
+    padding: 15px;
+}
+.mail{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #171819;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    gap: 40px;
+}
+.h2-mail{
+    letter-spacing: 0.7px;
+    font-family: "Open Sans";
+    font-size: 22px;
+    color: white;
+}
+.input-email{
+    margin-top: 3px;
+   min-height: 40px;
+   min-width: 450px;
+    text-align: center;
+}
+.SIGN-UP{
+   margin-top: 3px;
+    min-width: 200px;
+    min-height: 44px;
+    text-align: center;
 }
