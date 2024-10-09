@@ -331,11 +331,166 @@ padding: 20px;
 .input-email{
     margin-top: 3px;
    min-height: 40px;
-   min-width: 450px;
+   min-width: 280px;
+
 }
 .SIGN-UP{
    margin-top: 3px;
-    min-width: 200px;
+    min-width: 150px;
     min-height: 44px;
     text-align: center;
+    font-family: "Open Sans";
+    background-color: #00A4E5;
+    color: white;
+    font-size: 11px;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.footer-home{
+    display: flex;
+    gap: 50px;
+    background-color: #141A20;
+    color: white;
+}
+.setting-footer{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    margin: 0 auto;
+    max-width: 1400px; 
+    min-height: 250px ;
+    background-color: #141A20;
+}
+footer{
+    background-color: #141A20;  
+}
+.COMPANY{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    
+}
+.h2-COMPANY{
+    font-family: "Open Sans";
+    font-weight: 100;
+    font-size: 11px;
+    letter-spacing: 0.85px;
+}
+.p-COMPANY{
+    font-family: "Open Sans";
+    font-size: 11px;
+    max-width: 300px;
+    line-height: 19px;
+    letter-spacing: 0.81px;
+    padding-right:  60px;
+} 
+.links{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+   
+  
+}
+.h3-links{
+    font-family: "Open Sans";
+    font-weight: 100;
+    font-size: 11px;
+    letter-spacing: 0.85px;
+}
+.links li a{
+    font-family: "Open Sans";
+    font-weight: 400;   
+    color: white;
+    font-size: 11px;
+text-decoration: none;
+}
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-top: 25px;
+    gap: 10px;
+   
+}
+.FAQ li a{
+    font-family: "Open Sans";
+    font-weight: 400;   
+    color: white;
+    font-size: 11px;
+text-decoration: none;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-top: 25px;
+    gap: 10px;
+    
+}
+.blog li a{
+    font-family: "Open Sans";
+    font-weight: 400;   
+    color: white;
+    font-size: 11px;
+text-decoration: none;
+}
+.Contact-us{
+    font-family: "Open Sans";
+    font-size: 11px;
+    max-width: 142px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+   
+
+}
+.h3-contact-us{
+    font-family: "Open Sans";
+    font-weight: 200;
+}
+.last-str{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 11px;
+    color: white;
+    padding-bottom:10px ;
+}
+@media(max-width :1150px)
+{
+.Nav {
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.img-inf{
+min-width: 400px;
+}
+.div-our{
+    flex-direction: column;
+    align-items: center;
+}
+.build{
+    min-height: 215px;
+}
+}
+@media(max-width:877px){
+    .div-capabilities{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .h2-capabilities{
+        margin-right: 0;
+    }
+    .p-capabilities{
+        margin-right:0;
+    }
+    .ul-constr ul{
+        flex-wrap: wrap;
+    }
 }
